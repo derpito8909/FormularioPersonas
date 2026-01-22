@@ -1,0 +1,112 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ny [Cc]PU/
+[Ll]og/
+*.log
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# =========================
+# NuGet
+# =========================
+# Usually DON'T ignore packages folder in SDK-style projects; restore handles it.
+# But ignore legacy packages folder if it exists:
+packages/
+*.nupkg
+# User-specific NuGet config
+NuGet.Config.user
+# NuGet local cache/lock
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.nuget.cache
+
+# =========================
+# App settings / Secrets
+# =========================
+#appsettings.Development.json
+#appsettings.Local.json
+#appsettings.*.local.json
+secrets.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Test results / coverage
+# =========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*.xml
+
+# =========================
+# Publish output
+# =========================
+publish/
+artifacts/
+
+# =========================
+# Docker / compose overrides
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Node (si luego agregas Angular/React)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.temp
+*.swp
+*.bak
