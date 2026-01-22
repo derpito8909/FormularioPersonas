@@ -1,3 +1,3 @@
 namespace Registro.Application.Dtos;
 
-public record LoginRequest(string Usuario, string Pass);
+public sealed record LoginRequest(string Usuario, string Pass);

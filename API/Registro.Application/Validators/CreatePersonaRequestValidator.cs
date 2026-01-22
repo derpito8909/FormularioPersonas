@@ -16,7 +16,6 @@ public class CreatePersonaRequestValidator : AbstractValidator<CreatePersonaRequ
 
         RuleFor(x => x.TipoIdentificacion)
             .NotEmpty()
-            .Must(t => Tipos.Contains(t.Trim().ToUpperInvariant()))
-            .WithMessage("TipoIdentificacion inválido. Use: CC, TI, CE, NIT, PP.");
+            .Must(t => Tipos.Contains(t.Trim().ToUpperInvariant()));
     }
 }
