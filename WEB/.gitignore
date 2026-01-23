@@ -1,0 +1,79 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+
+# Visual Studio / MSBuild
+.vs/
+*.pdb
+*.mdb
+*.pidb
+*.svclog
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# ASP.NET Core
+# =========================
+# Local config
+appsettings.*.json
+!appsettings.json
+
+# User secrets / HTTPS dev certs (Windows/Linux)
+**/Properties/launchSettings.json
+
+# Logs
+logs/
+*.log
+
+# =========================
+# EF / DB / local files
+# =========================
+*.mdf
+*.ldf
+*.bak
+*.db
+*.sqlite
+*.db-journal
+
+# =========================
+# Publish / artifacts
+# =========================
+**/publish/
+**/wwwroot/dist/
+**/artifacts/
+**/*.zip
+
+# =========================
+# Node / NPM (si usas assets localmente)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
