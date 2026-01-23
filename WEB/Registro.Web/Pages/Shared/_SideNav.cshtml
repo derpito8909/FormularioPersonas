@@ -1,0 +1,67 @@
+@{
+    var isAuth = User?.Identity?.IsAuthenticated ?? false;
+    var userName = User?.Identity?.Name ?? "Usuario";
+}
+
+<div class="sidebar p-3">
+    <div class="d-flex align-items-start justify-content-between mb-2">
+        <div>
+            <h5 class="mb-0">Registro</h5>
+            <small class="text-muted">Registro personas y usuarios</small>
+        </div>
+        @if (isAuth)
+        {
+            <span class="badge bg-success align-self-center">Sesión activa</span>
+        }
+        else
+        {
+            <span class="badge bg-secondary align-self-center">Sin sesión</span>
+        }
+    </div>
+
+    <hr />
+
+    <ul class="nav flex-column gap-1">
+        <li class="nav-item">
+            <a class="nav-link" asp-page="/Index">🏠 Inicio</a>
+        </li>
+
+        <li class="nav-item mt-2">
+            <div class="text-uppercase text-muted small">Acceso</div>
+        </li>
+
+        @if (!isAuth)
+        {
+            <li class="nav-item">
+                <a class="nav-link" asp-page="/Account/Login">🔐 Login</a>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <span class="nav-link disabled">👤 @userName</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-page="/Account/Logout">🚪 Logout</a>
+            </li>
+            <li class="nav-item mt-3">
+                <div class="text-uppercase text-muted small">Personas</div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-page="/Personas/Index">📋 Listar personas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-page="/Personas/Create">➕ Crear persona</a>
+            </li>
+        }
+
+        <li class="nav-item mt-3">
+            <div class="text-uppercase text-muted small">Usuarios</div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-page="/Usuarios/Create">➕ Crear usuario</a>
+        </li>
+        
+        
+    </ul>
+</div>

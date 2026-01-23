@@ -1,0 +1,16 @@
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/bin/Debug/net8.0/Registro.Web.Infrastructure.deps.json
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/bin/Debug/net8.0/Registro.Web.Infrastructure.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/bin/Debug/net8.0/Registro.Web.Infrastructure.pdb
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/bin/Debug/net8.0/Registro.Web.Application.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/bin/Debug/net8.0/Registro.Web.Application.pdb
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.csproj.AssemblyReference.cache
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.AssemblyInfoInputs.cache
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.AssemblyInfo.cs
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.csproj.CoreCompileInputs.cache
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.sourcelink.json
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.17889F30.Up2Date
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/refint/Registro.Web.Infrastructure.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/Registro.Web.Infrastructure.pdb
+/home/david/Documents/Personas-net/WEB/Registro.Web.Infrastructure/obj/Debug/net8.0/ref/Registro.Web.Infrastructure.dll

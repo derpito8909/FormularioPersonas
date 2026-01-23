@@ -1,0 +1,13 @@
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/bin/Debug/net8.0/Registro.Web.Application.deps.json
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/bin/Debug/net8.0/Registro.Web.Application.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/bin/Debug/net8.0/Registro.Web.Application.pdb
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.AssemblyInfoInputs.cache
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.AssemblyInfo.cs
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.csproj.CoreCompileInputs.cache
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.sourcelink.json
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/refint/Registro.Web.Application.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.pdb
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/ref/Registro.Web.Application.dll
+/home/david/Documents/Personas-net/WEB/Registro.Web.Application/obj/Debug/net8.0/Registro.Web.Application.csproj.AssemblyReference.cache

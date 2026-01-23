@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-sidebar {
+  width: 260px;
+  border-right: 1px solid #ddd;
+  background: #f8f9fa;
+}
+
+.app-main {
+  flex: 1;
+  background: #fff;
+}
+
+.sidebar .nav-link {
+  color: #212529;
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(0,0,0,.05);
+  border-radius: .25rem;
+}
+.sidebar .badge {
+  font-size: .75rem;
+}
+.auth-bg{
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d6efd 0%, #6f42c1 100%);
+}
+
+.auth-shell{
+  min-height: calc(100vh - 2rem);
+}
+
+.auth-card{
+  border: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.auth-side{
+  background: rgba(255,255,255,.08);
+  backdrop-filter: blur(6px);
+}
+
+.auth-brand{
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  background: rgba(255,255,255,.18);
+}
+.login-card{
+  max-width: 900px;
+}
+
+.login-card-body{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  padding: 4rem 1.5rem; 
+}

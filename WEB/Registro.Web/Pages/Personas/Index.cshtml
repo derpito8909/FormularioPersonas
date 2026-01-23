@@ -1,0 +1,65 @@
+@page
+@model Registro.Web.Pages.Personas.Index
+@{
+    ViewData["Title"] = "Personas";
+}
+
+<h2 class="mb-3">Personas</h2>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-md-2">
+        <label class="form-label">Tipo</label>
+        <input class="form-control" name="TipoId" value="@Model.TipoId" placeholder="CC, TI..." />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Número</label>
+        <input class="form-control" name="NumeroId" value="@Model.NumeroId" />
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Email</label>
+        <input class="form-control" name="Email" value="@Model.Email" />
+    </div>
+    <div class="col-md-3 d-flex align-items-end gap-2">
+        <button class="btn btn-primary" type="submit">Buscar</button>
+        <a class="btn btn-secondary" asp-page="/Personas/Index">Limpiar</a>
+    </div>
+</form>
+
+@if (Model.Personas.Count == 0)
+{
+    <div class="alert alert-info">No hay personas para mostrar.</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped align-middle">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre completo</th>
+                <th>Identificación</th>
+                <th>Email</th>
+                <th>Creación</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var p in Model.Personas)
+            {
+                <tr>
+                    <td>@p.PersonaId</td>
+                    <td>@p.NombreCompleto</td>
+                    <td>@p.IdentificacionCompleta</td>
+                    <td>@p.Email</td>
+                    <td>@p.FechaCreacion.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td class="text-end">
+                        <a class="btn btn-sm btn-outline-primary"
+                           asp-page="/Personas/Details"
+                           asp-route-id="@p.PersonaId">Ver</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

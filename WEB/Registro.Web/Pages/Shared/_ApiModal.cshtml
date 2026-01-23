@@ -1,0 +1,42 @@
+@using System.Text.Json
+@using Registro.Web.Models
+
+@{
+    var raw = TempData["UiModal"] as string;
+    UiModal? modal = null;
+
+    if (!string.IsNullOrWhiteSpace(raw))
+    {
+        modal = JsonSerializer.Deserialize<UiModal>(raw!);
+    }
+}
+
+@if (modal is not null)
+{
+    <div class="modal fade" id="apiModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@modal.Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>@modal.Message</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var el = document.getElementById("apiModal");
+        if (el) {
+          var modal = new bootstrap.Modal(el);
+          modal.show();
+        }
+      });
+    </script>
+}

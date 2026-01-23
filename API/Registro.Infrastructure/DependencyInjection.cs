@@ -17,7 +17,7 @@ public static class DependencyInjection
         IConfiguration configuration)
     {
         services.AddDbContext<AppDbContext>(opt =>
-            opt.UseSqlServer(configuration.GetConnectionString("Default")));
+            opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
         
         services.AddScoped<IPersonaRepository, PersonaRepository>();
         services.AddScoped<IUsuarioRepository, UsuarioRepository>();

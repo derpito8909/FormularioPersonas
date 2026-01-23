@@ -22,7 +22,10 @@ public class AppDbContext : DbContext
             b.Property(x => x.NumeroIdentificacion).HasMaxLength(30).IsRequired();
             b.Property(x => x.Email).HasMaxLength(200).IsRequired();
             b.Property(x => x.TipoIdentificacion).HasMaxLength(10).IsRequired();
-            b.Property(x => x.FechaCreacion).IsRequired();
+            b.Property(x => x.FechaCreacion).IsRequired()
+                       .HasColumnType("datetime2")
+                        .HasDefaultValueSql("SYSDATETIME()")
+                        .ValueGeneratedOnAdd();
             
             b.Property(x => x.IdentificacionCompleta)
              .HasMaxLength(50)
