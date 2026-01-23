@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Registro.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eabc7493022e53ea4042fdff09f3375e1dcead07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15a837e077852d7387e5e03feb5816a9fbb9e8c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Registro.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Registro.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
