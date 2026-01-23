@@ -215,7 +215,7 @@ https://github.com/derpito8909/FormularioPersonas.git
      ![imagen](./verPersona.png)
    
 8. ver infomacion especifica de una persona
-     ![imagen](./detallePersona.png)
+     ![imagen](./DetallePersona.png)
 </details>
 
 ## Autor
